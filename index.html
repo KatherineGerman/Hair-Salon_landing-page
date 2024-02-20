@@ -3,30 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS style-->
     <link rel="stylesheet" href="styles/main.css">
 
+    <!--- Icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Hair Salon</title>
 </head>
 <body>
-    
+
+    <!-- Header// navbar-->
     <header>
+        <nav class="navbar">
+            <a href="#"><img src="imgs/dark_logo.png" class="logo" ></a>
 
-        <div class="logo"></div>
+            <ul class="navbar-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="">Lookbook</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+            
+            </ul>
 
-        <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="pages/about.html">About</a></li>
-           <li><a href="pages/services.html">Services</a></li>
-           <li><a href="pages/contact.html">Contact</a></li>
-
-        </ul>
+            <a href="" class="book"><i class="fa-solid fa-ellipsis"></i>Book Online</a>
+       </nav>
     </header>
 
-    <section class="main-section">
-        <h1> Blonde & highlight</h1>
-        <p>Divide your uniqueness by yout hairs in tyle</p>
-        <button class="our-services"><a href="pages/services.html">Our services</a></button>
-    </section>
+    <main>
+
+        <!-- Home section, main text and title-->
+        <section class="title">
+
+            <section class="content-wrapper">
+                <section class="mainText">
+                  <h1> Blonde 
+                    <br> & highlight</h1>
+                  <h5>Divide your uniqueness by yout hairs in tyle</h5>
+                  <button class="our-services"><a href="pages/services.html">Our services</a></button>
+
+                  <!-- Black square "Book online"-->
+                  <aside class="">
+                    <span >Your First Visit?</span>
+                    <span class="discount">20% for the first classic hair coloring</span>
+                    <button class="bookOnline-btn"><i class="fa-solid fa-ellipsis"></i><a href="#">Book Online</a></button>
+
+                  </aside>
+                </section>
+            </section>
+
+            
+        </section>
+
+    </main>
+    
 
 </body>
 </html>
