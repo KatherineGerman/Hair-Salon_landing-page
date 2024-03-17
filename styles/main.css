@@ -1,87 +1,151 @@
-* {
-    
-    box-sizing: border-box;
+body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    
    
 }
 
-body {
+.navbar{
 
-    font-family: "Cinzel", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: 100%;
-    letter-spacing: 0.2rem;
+    display:flex;
+    flex-direction: row;
+    margin-top: 25px;
+   
     
-     
 }
-.navbar, .book {
+.navbar-list{
+    display:flex;
+    margin-left: 100px;
+   
+
+}
+.logo{
+    margin-left: 100px;
     position: relative;
-    
-    
-}
-header{
-   
-   background-color: white;
    
 }
 
-a {
-    list-style-type: none;
+.fa-solid{
+    padding-right: 10px;
+    font-weight: bold;
 }
-ul li{
-    
-    display: inline;
-    font-size: 1rem;
+
+.book-online-icon{
+    position: relative;
+    left: 300px;
+    top: 18px;
     text-transform: uppercase;
-    padding: 15px;
-
-}
-ul {
-    padding-left: 15%;
-    border: 5px solid black;
-    
+    font-size: 18px;
 }
 
-.logo {
-   
-    padding-left: 3%;
-    padding-top: 30px;
-    border: 5px solid black;
-    
-}
-
-
-a{
+ul, li, a {
     text-decoration: none;
     color: black;
+    list-style: none;
 }
 
-.book {
- float: right;
- left: -8%;
- top: -35px;
-
+ li{
    
+   margin-left: 50px;
+   text-transform: uppercase;
+   font-size: 18px;
+
 }
 
-.fa-ellipsis {
-    margin: 15px;
+ul{
+    display: inline-block;
+    align-content: center;
 }
 
-.title {
-
-    background-image: url("../imgs/main.jpg") ;
+.title{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/aeaeaeaeaeae.jpg) no-repeat center;
     background-size: cover;
-    padding: 30% ;
+    height: 1000px;
+ 
+    
+    
+}
+
+.content-wrapper{
+    position: relative;
+    top: 200px;
+    
 
 }
 
-main, header {
-   
+h1,h5,span,button{
+    text-transform: uppercase;
 }
 
-section {
+.main-text{
+   margin-left: 300px;
+  
+  
+  
+}
+.main-title{
+    
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    font-weight: lighter;
+    
+    
+}
+.second-title{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+  
+}
 
-    display: block;
+.our-service-btn{
+
+    margin-left: 300px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    
+}
+
+.callToAction{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 300px;
+    width: 300px;
+    margin-left: 300px;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 30px;
+    
+}
+span,p,em{
+    margin: 0;
+    
+}
+
+em{
+    font-size: 40px;
+    font-weight: bold;
+}
+.coupon-container{
+    
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+
+.book-online-white-btn{
+    border: none;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    
 }
