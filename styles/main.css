@@ -232,3 +232,44 @@ em{
     display: flex;
     justify-content: center;
 }
+.stylists-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.stylist-photo{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    
+    
+}
+.stylist-info{
+    margin-left: 30px;
+}
+.stylist{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top:-50px;
+    left: 25px;
+    width: 300px;
+    height: 80px;
+}
+.stylist-name{
+    font-size: 16px;
+    margin: 0;
+    line-height: 3;
+
+    
+}
+.stylist-spec{
+font-size: 14px;
+
+}
