@@ -273,3 +273,52 @@ em{
 font-size: 14px;
 
 }
+
+.colour-day-offer{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Promo-Banner-Image.jpg?id=4553) no-repeat center;
+    background-size: cover;
+   height: 600px;
+   width: 1500px;
+   align-items: center;
+   margin-left: 200px;
+   
+}
+
+.book-appointment-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    margin-top: 30px;
+}
+
+.colour-day-offer{
+    
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.coupon-info{
+
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: 600px
+
+}
+.coupon-text{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    
+}
+.coupon-text-info{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.coupon-text-info > em{
+    font-weight: bold;
+    font-size: 55px;
+}
