@@ -295,7 +295,7 @@ font-size: 14px;
 .colour-day-offer{
     
   text-align: left;
-  margin-bottom: 50px;
+
 }
 
 .coupon-info{
@@ -303,7 +303,8 @@ font-size: 14px;
     position: relative;
     top: 200px;
     left: 200px;
-    width: 600px
+    width: 600px;
+   
 
 }
 .coupon-text{
@@ -322,3 +323,102 @@ font-size: 14px;
     font-weight: bold;
     font-size: 55px;
 }
+
+.imgOne{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-01.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.imgTwo{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-03.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.imgThree{
+
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-01.jpg) no-repeat center;
+    background-size: cover;
+   
+}
+
+.imgFour{
+
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-04.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.imgFive{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-02.jpg) no-repeat center;
+    background-size: cover;
+   
+}
+
+.imgSix{
+    background: url(https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-02.jpg) no-repeat center;
+    background-size: cover;
+   
+}
+
+
+.imgSquare, .imgRectangle {
+    width: 360px;
+    height: 360px;
+    margin-top: 20px;
+    
+}
+
+.imgRectangle {
+    height: 600px;
+    margin-top: 20px;
+}
+.allImages, .imgColumn {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    contain: content;
+    
+}
+
+.imgColumn {
+    float: left;
+   
+}
+
+.our-lookbook-container, .imgColumn{
+    padding-left: 2%;
+ 
+}
+.allImages{
+    margin-left: 18%;
+}
+.main-text-lookbook{
+    margin-top: 100px;
+
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, 0.7);
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    font-size: 50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.fa-plus{
+    padding-top: 50%;
+}
+.our-lookbook-text{
+
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+   
+}
+
